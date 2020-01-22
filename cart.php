@@ -82,7 +82,7 @@ $cart = function () use ($db) {
       $img = $row['img'];
 
 
-      echo '<p>' . '<img src="'. $img .'" width="20%" height="20%">' . '<br>' . $name . '<br>' . $description . '<br>' . '&euro; ' . $price . '<br><a href = "cart.php?add='. $id .'">Add to cart</a></p>';
+      echo '<p>' . '<img src="'. $img .'" width="10%" height="15%">' . '<br>' . $name . '<br>' . $description . '<br>' . '&euro; ' . $price . '<br><a href = "cart.php?add='. $id .'">Add to cart</a></p>';
     }
   }
 };
